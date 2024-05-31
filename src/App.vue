@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </h1>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <Footer />
 </template>
 
 
