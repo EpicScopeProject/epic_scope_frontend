@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Inicio from '../views/Inicio.vue'
-import Eventos from '../views/Eventos.vue'
+import Inicio from '../views/Inicio.vue';
+import Eventos from '../views/Eventos.vue';
 
 
-const coutes = [
+const routes = [
 {
     path:'/',
     name:'inicio',
@@ -11,7 +11,7 @@ const coutes = [
 },
 
 {
-    path:'/Eventos',
+    path:'/eventos',
     name:'eventos',
     component: function () {
         return import( '../views/Eventos.vue')
